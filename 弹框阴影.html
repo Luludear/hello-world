@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>弹框阴影</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		div{
+			width: 300px;
+			height: 300px;
+		}
+		.box{
+			
+			position: relative; /*相对定位*/
+			margin:100px auto;
+		}
+		.top{
+			background-color: yellow;
+			position: absolute;
+			left: -6px;
+			top: -6px;
+			z-index: 1;
+		}
+		.down{
+			background-color: black;
+			position: absolute;
+			right: -6px;
+			bottom: -6px;
+			opacity: 0.5;		}
+
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="top"></div>
+		<div class="down"></div>
+	</div>
+
+</body>
+</html>

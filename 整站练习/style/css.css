@@ -1,0 +1,31 @@
+body,ul,p,h1,h2,h3,h4,dl,form,input,textarea,select{
+	margin: 0;padding:0;font-family: arial;
+}
+
+li{
+	list-style: none;
+}
+img{border: none;}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:underline;
+}
+body{
+	background: url(../images/body_bg.png) repeat-x;
+}
+
+/*头部*/
+.top_menu{}
+.top_menu li{}
+.top_menu a{}
+.top_menu a:hover{}
+.top_menu .no_dot{}	
+
+/*电话短信*/
+
+.top_bar{}
+.top_bar li{}
+.top_bar .phone{}
+.top_bar .help{}
